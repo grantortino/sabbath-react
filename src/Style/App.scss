@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+    margin: 0 auto;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.list-container {
+    margin: 0 auto;
+    color: white;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+}
+
+.main-logo {
+    width: 30%;
+}
+
+.Maynard, .Adam, .Justin, .Danny {
+    img{
+        width: 30%;
+    }
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
