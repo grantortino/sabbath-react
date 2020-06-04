@@ -17,16 +17,16 @@ class Navigation extends React.Component {
                 <div>
                     <ul className="list-container">
                         <li>
-                            <Link to="/vocals">VOCALS</Link>
+                            <Link to="/vocals" className="link">VOCALS</Link>
                         </li>
                         <li>
-                            <Link to="/guitar">GUITAR</Link>
+                            <Link to="/guitar" className="link">GUITAR</Link>
                         </li>
                         <li>
-                            <Link to="/bass">BASS</Link>
+                            <Link to="/bass" className="link">BASS</Link>
                         </li>
                         <li>
-                            <Link to="/drums">DRUMS</Link>
+                            <Link to="/drums" className="link">DRUMS</Link>
                         </li>
                     </ul>
                 </div>

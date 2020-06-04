@@ -1,0 +1,54 @@
+body {
+  background-color: black;
+  margin: 0 auto;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.list-container {
+  margin: 0 auto;
+  color: white;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 2rem;
+}
+
+.logo-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-logo {
+  width: 30%;
+}
+
+.Maynard, .Adam, .Justin, .Danny {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Maynard img, .Adam img, .Justin img, .Danny img {
+  width: 30%;
+}
+
+.link:visited {
+  color: white;
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+}
+/*# sourceMappingURL=App.css.map */
